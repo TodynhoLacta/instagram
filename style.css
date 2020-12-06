@@ -92,7 +92,7 @@ min-height: 19rem;
     padding: 1.0rem 0;
 }
 .donwload{
-    display: flex;
+    display: inline-block;
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
@@ -102,14 +102,15 @@ min-height: 19rem;
 .app-download{
     height: 3rem;
     width: 10rem;
+    float: left;
     background-size: cover;
-}
-.app-download:nth-child(1){
-    background-image: url("./img/apple.png");
+    background-image: url("img/googleplay.png");
+    
 }
 .app-download:nth-child(2){
-    background-image: url("img/googleplay.png");
+    background-image: url("img/apple.png");
 }
+
 @media (max-width: 1024px){
     .instagram-wrapper{
         width: 90%;
